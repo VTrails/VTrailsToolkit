@@ -98,7 +98,7 @@ Did you like what you found here?
 Then please help us improving the open-source project with valuable feedbacks, contributions and comments!
 We will come back to you as soon as possible.
 
-Have we made your life a little easier? Please consider donating to support the project!
+Have we made your life somehow easier? Please consider donating to support the project!
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66CWS8MB7PSGG)
 
