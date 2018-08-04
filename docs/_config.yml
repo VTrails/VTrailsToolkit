@@ -3,3 +3,5 @@ description: Geodesic Vascular Toolkit for Cerebrovascular Trees Inference
 logo: imgs/VTrails_logo_github.png
 show_downloads: true
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-mentions
