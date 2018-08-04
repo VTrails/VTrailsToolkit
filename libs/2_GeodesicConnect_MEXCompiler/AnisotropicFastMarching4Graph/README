@@ -1,0 +1,18 @@
+*******************************************************
+Author  : Ender Konukoglu
+Email   : ender.konukoglu@gmail.com
+Article : @inproceedings{konukoglu2007recursive,
+          title={A recursive anisotropic fast marching approach to reaction diffusion equation: Application to tumor growth modeling},
+          author={Konukoglu, Ender and Sermesant, Maxime and Clatz, Olivier and Peyrat, Jean-Marc and Delingette, Herve and Ayache, Nicholas},
+          booktitle={Information processing in medical imaging},
+          pages={687--699},
+          year={2007},
+          organization={Springer}
+					}
+Date    : June 21, 2013.
+******************************************************
+
+The current version of the code has been slightly modified by Stefano Moriconi to make it compatible with the VTrails Toolkit (Matlab).
+
+Please see the original code and submission at:
+https://github.com/donghaozhang/Anisotropic-Fast-Marching

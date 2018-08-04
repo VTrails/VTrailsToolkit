@@ -1,0 +1,51 @@
+*******************
+* VTrails Toolkit *
+*******************
+
+Please INSTALL first VTrails:
+
+  run in Matlab command window: >> INSTALL_VTrails; 
+
+Note: You must have successfully generated the following MEX files:
+
+ - VTF3D_computeGradients2ndOrd_mex.MEXextension
+ - VTF3D_configTFSynthesis_mex.MEXextension
+ - VTF3D_eigenDecompBlock3D_mex.MEXextension
+ - VTF3D_synthTF_mex.MEXextension
+ - mxAnisoDistanceTransform4Graph.MEXextension
+ - gradient3Dcpp_mex.MEXextension
+ - linterp_matlab.MEXextension
+ - VTR3D_getPairs2BeEvaluated_mex.MEXextension
+ - VTR3D_notUnique_mex.MEXextension
+ - VTR3D_repeatedValue_mex.MEXextension
+ - VTR3D_repeatedValueSymm_mex.MEXextension
+
+These must all be located in <VTrailsToolkitRootDir>/libs/
+
+Note: If you are experiencing compiling issues or installation problems,
+please check the exceptions (ErrorLog.mat) and configure the Matlab coder,
+using the most recent gcc or clang (LINUX, MAC, WIN) compiler.
+---------------------------------------------------------------------------
+
+VTrails Toolkit Components: <VTrailsRootDir>/main/
+ 
+ - VTrailsFilter3D_MAIN.m
+   Description:
+   Synthesis of 3D Connected Vesselness Map & Tensor Field via SLoGS.
+
+ - VTrailsConnectingGeodesicGraph3D_MAIN.m
+   Description:
+   Geodesic Connectivity Paradigm for Over-Connected Vascular Graphs.
+
+ - VTrailsRefine3D_ConnectedGraph2VTrailsTree_MAIN.m
+   Description:
+   Extract and Refine Geodesic Minimum Spanning Tree
+   from Over-Connected Vascular Graphs.
+
+ - PIPELINE.m
+   Description:
+   Hints and guide on how to use VTrails ToolKit.
+   
+
+---------------------------------------------------------------------------
+ Stefano Moriconi - 2018
