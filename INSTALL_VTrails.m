@@ -28,12 +28,12 @@ if exist(VTrailsToolkitRootDir,'dir')
         disp('            VTrails Toolkit Succesfully Installed!             ');
         disp('**************************************************************');
     else
-        sprintf(2,'\nVTrails Toolkit has NOT been correctly installed.\nPlease Check the Exceptions (ErrorLog.mat) and\n Re-run the installer prior to using the Tooltik.');
+        sprintf(2,'\nVTrails Toolkit has NOT been correctly installed.\nPlease Check the Exceptions (ErrorLog.mat) and\nRe-run the installer prior to using the Tooltik.\n');
         exportErrorLog(VTrailsToolkitRootDir,cat(2,ME1,ME2));
     end
     
 else
-    sprintf(2,'\nVTrails Toolkit has NOT been installed.\nPlease Re-run the installer prior to using the Tooltik.');
+    fprintf(2,'\nVTrails Toolkit has NOT been installed.\nPlease Re-run the installer prior to using the Tooltik.');
 end
 
 function [exportSuccess,ME] = exportVTrailsToolkitRootDir(VTrailsToolkitRootDir)
