@@ -95,7 +95,7 @@ Two demos are included in the release:
 ## Contribute to the project!
 
 Did you like what you found here?
-Then please help us improving the open-source project with valuable feedbacks, contributions and comments!
+Then please *follow* the project, give us a *star* and help us improving the open-source code with valuable feedbacks, contributions and comments!
 We will come back to you as soon as possible.
 
 Have we made your life somehow easier? Please consider donating to support the project!
