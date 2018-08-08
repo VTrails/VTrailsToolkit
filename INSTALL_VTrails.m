@@ -159,10 +159,22 @@ try
     disp('--------------------------------------------------------------');
 catch me
     ME = cat(2,ME,me);
-    fprintf('\b\b\b\b');
-    fprintf(2,'FAILED!\n');
-    disp('--------------------------------------------------------------');
-    installSuccess = false;
+    try
+        mex( '-DMX_COMPACT_32' ,...
+             strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/mxAnisoDistanceTransform4Graph.cpp'), ...
+             strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/AnisotropicFastMarching4Graph.cpp'), ...
+             strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/UpdateNeighborhood4Graph.cpp'), ...
+             strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/Auxillary4Graph.cpp'), ...
+             '-outdir', strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/') ) ;
+        fprintf('\nDONE!\n']);
+        disp('--------------------------------------------------------------');
+    catch me
+        ME = cat(2,ME,me);
+        fprintf('\b\b\b\b');
+        fprintf(2,'FAILED!\n');
+        disp('--------------------------------------------------------------');
+        installSuccess = false;
+    end
 end
 
 % Step: 2.2
