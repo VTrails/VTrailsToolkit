@@ -14,5 +14,11 @@ Date    : June 21, 2013.
 
 The current version of the code has been slightly modified by Stefano Moriconi to make it compatible with the VTrails Toolkit (Matlab).
 
-Please see the original code and submission at:
+* Note: For MATLAB versions later than R2016 *
+Please modify the following file: <mxAnisoDistanceTransform4Graph.cpp>
+ - Comment/Uncomment, as suggested, lines:  88 -  89
+ 				            93 -  94
+					   123 - 124
+
+See the original code and submission at:
 https://github.com/donghaozhang/Anisotropic-Fast-Marching
