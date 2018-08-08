@@ -172,7 +172,7 @@ disp('VTrails: Connecting Geodesic Graph -- COMPLETE!');
 function DATA = VTC3D_configureINPUTS(MAP,optInputs)
 
 disp('*********************************************************');
-disp('  VTrails: Connecting Geodesic Graph  --  Vascular Tree  ');
+disp('           VTrails: Connecting Geodesic Graph            ');
 disp('*********************************************************');
 
 disp(strcat( datestr(datetime),' @ ', computer ));
