@@ -13,8 +13,8 @@ VTrails has been presented at the biennial conference *Information Processing in
 VTrails is available as Matlab toolkit.
 
 ### Requirements:
-  - Matlab R2016b or later
-  - Correctly Configured Matlab Compiler (with most recent version gcc, clang, ...) 
+  - Full Matlab R2016b or later
+  - Correctly Configured Matlab Compiler (*Coder* and *mex* with most recent version gcc, clang, ...) 
   - Nifti Image I/O library (included) - original [source](https://uk.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image)
   - Boost_1_49_0 libraries (included) - original [source](https://www.boost.org/users/history/version_1_49_0.html)
   - linterp libraries (included) - original [source](http://rncarpio.github.io/linterp/)
