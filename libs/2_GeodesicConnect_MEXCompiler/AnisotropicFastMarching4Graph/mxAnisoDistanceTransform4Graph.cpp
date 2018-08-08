@@ -86,8 +86,12 @@ void mexFunction (int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 	
 
 	const int* dimV_ = mxGetDimensions (prhs[2]);
+	//const mwSize *dimV_ = mxGetDimensions (prhs[2]); //Uncomment this line for MATLAB later than R2016 (Comment line 88) 
+	
 	const int dimN = mxGetNumberOfDimensions (prhs[2]);
+	
 	const int* dimT = mxGetDimensions (prhs[1]);
+	//const  mwSize *dimT = mxGetDimensions (prhs[1]); //Uncomment this line for MATLAB later than R2016 (Comment line 93) 
 
 	int dimV[3]; float volDim[3];
 	if (dimN == 3)
@@ -117,7 +121,8 @@ void mexFunction (int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 	dimScalar[0] = 1;
 
 	plhs[0] = mxCreateNumericArray(3, dimV, mxDOUBLE_CLASS, mxREAL);
-
+	//plhs[0] = mxCreateNumericArray(3, dimV_, mxDOUBLE_CLASS, mxREAL); //Uncomment this line for MATLAB later than R2016 (Comment line 123)
+	
 	OI = mxGetPr(plhs[0]);
 
 	/* Creating Memory for Volumes */
