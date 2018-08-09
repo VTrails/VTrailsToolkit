@@ -172,6 +172,10 @@ catch me
         ME = cat(2,ME,me);
         fprintf('\b\b\b\b');
         fprintf(2,'FAILED!\n');
+        MATLABversion = version('-release');
+        if str2num(MATLABversion(1:end-1)) > 2016
+            fprintf(2,'See: /libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/README\n');
+        end
         disp('--------------------------------------------------------------');
         installSuccess = false;
     end
