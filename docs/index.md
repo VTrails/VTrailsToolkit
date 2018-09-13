@@ -105,4 +105,4 @@ Have we made your life somehow easier? Please consider donating to support the p
 We do really appreciate your generosity. Thanks for making the difference!
 
 ### Authors and Contributors
-This project is currently maintained by Stefano Moriconi (@stefanomoriconi).
+This project is currently maintained by [Stefano Moriconi](https://stefanomoriconi.github.io/mypage/) (@stefanomoriconi).
