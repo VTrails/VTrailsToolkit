@@ -45,7 +45,7 @@ Two demos are included in the release:
 ## Developing *new* Features - Coming Soon! -
 
  - Topologically aware evaluation framework: quantitative accuracy assessment;
- - Alignment and registration of vascular topologies [3];
+ - Alignment and registration of vascular topologies [3] [Full-Text](https://arxiv.org/abs/1809.05499);
  - Vessels morphology, lumen segmentation and clinical indices extraction;
  - Much more to come! ... Stay Tuned :)
 
