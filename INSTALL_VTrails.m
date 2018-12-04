@@ -155,7 +155,7 @@ try
         strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/UpdateNeighborhood4Graph.cpp'), ...
         strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/Auxillary4Graph.cpp'), ...
         '-outdir', strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/') ) ;
-    fprintf('\nDONE!\n']);
+    fprintf('\nDONE!\n');
     disp('--------------------------------------------------------------');
 catch me
     ME = cat(2,ME,me);
@@ -166,7 +166,7 @@ catch me
              strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/UpdateNeighborhood4Graph.cpp'), ...
              strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/Auxillary4Graph.cpp'), ...
              '-outdir', strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/AnisotropicFastMarching4Graph/') ) ;
-        fprintf('\nDONE!\n']);
+        fprintf('\nDONE!\n');
         disp('--------------------------------------------------------------');
     catch me
         ME = cat(2,ME,me);
@@ -266,7 +266,7 @@ try
     mex( strcat('-I',VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/Linterp/boost_1_49_0/'),...
         strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/Linterp/rncarpio-linterp-ca556a0/src/linterp_matlab.cpp'),...
         '-outdir', strcat(VTrailsToolkitRootDir,'libs/2_GeodesicConnect_MEXCompiler/Linterp/rncarpio-linterp-ca556a0/src/') );
-    fprintf('\nDONE!\n']);
+    fprintf('\nDONE!\n');
     disp('--------------------------------------------------------------');
 catch me
     ME = cat(2,ME,me);
