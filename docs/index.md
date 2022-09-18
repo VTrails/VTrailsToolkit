@@ -6,11 +6,12 @@ VTrails stands as an end-to-end approach to extract geodesic vascular minimum sp
 
 VTrails has been presented at the biennial conference *Information Processing in Medical Imaging* (IPMI 2017) [1] [Full-Text](https://arxiv.org/abs/1806.03111), and further published on the *IEEE Transactions on Medical Imaging* journal [2] [Full-Text](https://ieeexplore.ieee.org/document/8421255/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YBOGDkxIwXw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZkX3l_FhiLE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Open-Source Implementation
   
 VTrails is available as Matlab toolkit.
+[Vtrails on YouTube](https://www.youtube.com/channel/UCC24bCFUO9uhUBLNQk1zjJw)
 
 ### Requirements:
   - Full Matlab R2016b or later
